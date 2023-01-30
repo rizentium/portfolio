@@ -9,7 +9,7 @@
 
 .description {
   display: inherit;
-  justify-content: inherit;
+  justify-content: end;
   align-items: inherit;
   font-size: 0.85rem;
   max-width: var(--max-width);
@@ -73,10 +73,9 @@
 }
 
 .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+  display: grid;
+  justify-items: center;
+  row-gap: 18px;
   padding: 4rem 0;
 }
 
