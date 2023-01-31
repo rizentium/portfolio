@@ -56,35 +56,20 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              About Me <span>-&gt;</span>
+              Projects (Soon) <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              You can see all published projects in here.
             </p>
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Projects <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://medium.com/@af.hidayat"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -93,21 +78,35 @@ export default function Home() {
               Articles <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              I write articles just for fun and share my experiences.
             </p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.linkedin.com/in/arifhidayat95/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Open Source <span>-&gt;</span>
+              Linkedin <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              If you want to reach out with me, we can connect at Linkedin.
+            </p>
+          </a>
+
+          <a
+            href="https://github.com/rizentium"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+              Github <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>
+              You can see all of open source contribution at Github.
             </p>
           </a>
         </div>
