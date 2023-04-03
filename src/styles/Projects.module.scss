@@ -4,10 +4,14 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+
   &_body {
     display: grid;
-    grid-template-columns: 50% 50%;
-    column-gap: 25px;
+
+    @media (min-width: 660px) {
+      grid-template-columns: 50% 50%;
+      column-gap: 25px;
+    }
   }
 
   &_item {
